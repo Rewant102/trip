@@ -17,7 +17,7 @@ def upload_to_s3(local_file_path, bucket_name, s3_file_path):
 
 # Example usage
 local_model_path = 'models/model.joblib'
-s3_bucket_name = 'nyc-taxi-campusx'
+s3_bucket_name = 'nyc-taxirewant' # changed this file so we can go forwad now okk 
 s3_file_path = 'models/model.joblib' 
 
 upload_to_s3(local_model_path, s3_bucket_name, s3_file_path)
